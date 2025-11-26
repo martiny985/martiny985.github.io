@@ -1,0 +1,148 @@
+---
+layout: default_style
+permalink: /about
+nav_active: about
+---
+<!-- Main Container -->
+
+<div id="banners"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h1>关于我们 <small>Who We Are</small></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <h2>公司简介</h2>
+      <p class="lead">
+        {{ site.company_name }} 是一家专业的法律服务机构,致力于为客户提供高质量的法律咨询和解决方案。
+      </p>
+      <p>
+        我们的团队由经验丰富的专业人士组成,在各个法律领域拥有深厚的专业知识和实践经验。
+        我们始终坚持以客户为中心,为每一位客户提供量身定制的法律服务。
+      </p>
+
+      <h3>我们的使命</h3>
+      <p>
+        通过提供专业、高效、可靠的法律服务,帮助客户解决法律问题,维护合法权益,
+        实现商业目标。我们致力于成为客户最信赖的法律合作伙伴。
+      </p>
+
+      <h3>我们的价值观</h3>
+      <ul class="list-unstyled">
+        <li><i class="fa fa-check text-success"></i> <strong>专业</strong> - 持续学习,保持专业水准</li>
+        <li><i class="fa fa-check text-success"></i> <strong>诚信</strong> - 坚守职业道德,诚信为本</li>
+        <li><i class="fa fa-check text-success"></i> <strong>高效</strong> - 快速响应,高效执行</li>
+        <li><i class="fa fa-check text-success"></i> <strong>创新</strong> - 探索创新解决方案</li>
+      </ul>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-info-circle"></i> 联系信息</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>地址:</strong><br>{{ site.address_line }}</p>
+          <p><strong>电话:</strong><br>{{ site.telephone_number }}</p>
+          <p><strong>传真:</strong><br>{{ site.fax_number }}</p>
+          <p><strong>邮箱:</strong><br>{{ site.company_email }}</p>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-clock-o"></i> 营业时间</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>周一至周五:</strong><br>9:00 AM - 6:00 PM</p>
+          <p><strong>周六:</strong><br>9:00 AM - 1:00 PM</p>
+          <p><strong>周日:</strong><br>休息</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <hr>
+      <h2>我们的服务领域</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-balance-scale fa-3x text-primary"></i>
+        <h4>公司法务</h4>
+        <p>公司设立、合同审查、商业谈判等企业法律服务</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-gavel fa-3x text-success"></i>
+        <h4>诉讼仲裁</h4>
+        <p>民事、商事诉讼及仲裁代理服务</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-shield fa-3x text-info"></i>
+        <h4>知识产权</h4>
+        <p>专利、商标、著作权保护及维权服务</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-building fa-3x text-warning"></i>
+        <h4>房地产法务</h4>
+        <p>房地产交易、租赁及纠纷解决服务</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-users fa-3x text-danger"></i>
+        <h4>劳动人事</h4>
+        <p>劳动合同、员工关系及劳动争议处理</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="service-box text-center">
+        <i class="fa fa-handshake-o fa-3x text-primary"></i>
+        <h4>法律顾问</h4>
+        <p>常年法律顾问及专项法律咨询服务</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.service-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+.service-box h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+</style>
+
+<!--End Main Container -->

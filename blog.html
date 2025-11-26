@@ -14,7 +14,7 @@ nav_active: blog
         {{ post.title }}
       </h1>
       <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
+      <img src="{{ site.baseurl }}/assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
       <br>
       <p>{{ post.description }}</p>
       <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>

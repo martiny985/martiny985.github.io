@@ -16,19 +16,19 @@
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav pull-right">
       <li {% if page.nav_active == 'home' %}class="active"{% endif %}>
-        <a href="/">Home</a>
+        <a href="{{ site.baseurl }}/">Home</a>
       </li>
       <li {% if page.nav_active == 'about' %}class="active"{% endif %}>
-        <a href="/about.html">About</a>
+        <a href="{{ site.baseurl }}/about.html">About</a>
       </li>
       <li {% if page.nav_active == 'blog' %}class="active"{% endif %}>
-        <a href="/blog.html">Blog</a>
+        <a href="{{ site.baseurl }}/blog.html">Blog</a>
       </li>
       <li {% if page.nav_active == 'team' %}class="active"{% endif %}>
-        <a href="/team.html">Team</a>
+        <a href="{{ site.baseurl }}/team.html">Team</a>
       </li>
       <li {% if page.nav_active == 'contact' %}class="active"{% endif %}>
-        <a href="/contact.html"><span>Contact</span></a>
+        <a href="{{ site.baseurl }}/contact.html"><span>Contact</span></a>
       </li>
     </ul>
   </div>
