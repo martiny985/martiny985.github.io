@@ -1,57 +1,35 @@
 <!-- Footer -->
-<footer> 
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <h3><i class="fa fa-bolt"></i> Lightning</h3>
         <p class="footer-contact">
-          {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Fax: {{ site.fax_number }} <br>
-          Email: {{ site.company_email }}<br>
+          Fast as Lightning, Secure Always<br>
+          Smart Proxy Tool Powered by V2Ray<br>
+          <br>
+          Email: martiny895z@gmail.com<br>
         </p>
       </div>
       <div class="col-md-4">
         <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="{{ site.baseurl }}/about"> About ( Who we are )</a></p>
-        <p><a href="{{ site.baseurl }}/about"> Services ( What we do )</a></p>
-        <p><a href="{{ site.baseurl }}/contact"> Contact ( Feel free to contact )</a></p>
-        <p><a href="{{ site.baseurl }}/blog"> Blog ( Write to us )</a></p>
-        <p><a href="{{ site.baseurl }}/team"> Team ( Meet the Team )</a></p>
-        <p><a href="{{ site.baseurl }}/privacy"> Privacy Policy</a></p>
+        <p><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></p>
+        <p><a href="{{ site.baseurl }}/contact"><i class="fa fa-envelope"></i> Contact</a></p>
+        <p><a href="{{ site.baseurl }}/privacy"><i class="fa fa-shield"></i> Privacy Policy</a></p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
-        <div id="social-icons">
-          {% if site.googleplus_link %}
-            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          {% endif %}
-
-          {% if site.linkedin_link %}
-            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          {% endif %}
-
-          {% if site.facebook_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          {% endif %}
-
-          {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
-          {% endif %}
-        </div>
-      </div>    
+        <h3><i class="fa fa-download"></i> Download</h3>
+        <p>
+          <i class="fa fa-android"></i> Android (Google Play - Coming Soon)<br>
+          <i class="fa fa-apple"></i> macOS<br>
+          <i class="fa fa-windows"></i> Windows<br>
+          <i class="fa fa-linux"></i> Linux<br>
+        </p>
+      </div>
     </div>
   </div>
 
   <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Your Website Link</a>.</p>
+    <p>&copy; {{ site.time | date: '%Y' }} Lightning. All rights reserved.</p>
   </div>
 </footer>
