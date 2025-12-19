@@ -1,0 +1,86 @@
+# English translations
+lang: en
+lang_name: English
+
+# Navigation
+nav:
+  home: Home
+  contact: Contact
+  privacy: Privacy
+  language: Language
+
+# Hero Section
+hero:
+  slogan: "Fast as Lightning, Secure Always"
+  tagline: "Smart Proxy Tool Powered by V2Ray"
+  learn_more: Learn More
+  download: Download
+
+# Features Section
+features:
+  title: Features
+  subtitle: "Why choose Lightning?"
+  secure:
+    title: Secure
+    desc: "V2Ray-based encrypted proxy connection ensures your data stays private and protected."
+  cross_platform:
+    title: Cross-Platform
+    desc: "Available on Windows, macOS, Linux, and Android. One app for all your devices."
+  performance:
+    title: High Performance
+    desc: "Built with Rust and Tauri for blazing fast performance and minimal resource usage."
+  modern_ui:
+    title: Modern UI
+    desc: "Clean, intuitive design with multiple themes. Light, dark, and system modes supported."
+
+# Protocols Section
+protocols:
+  title: Supported Protocols
+  subtitle: "Compatible with all major proxy protocols"
+  qr_import:
+    title: QR Code Import
+    desc: "Scan QR codes to quickly import configurations"
+  url_import:
+    title: URL Import
+    desc: "Paste protocol URLs directly to add servers"
+  full_config:
+    title: Full Config
+    desc: "Import complete V2Ray JSON configurations"
+
+# Download Section
+download:
+  title: Download
+  subtitle: "Get Lightning for your platform"
+  coming_soon: "Coming Soon"
+  download_btn: Download
+
+# Contact Page
+contact:
+  title: Contact
+  subtitle: Get in Touch
+  team_name: Lightning Team
+  intro: "We'd love to hear from you!"
+  email: Email
+  github: GitHub
+  website: Website
+  faq:
+    title: FAQ
+    q1: "How do I report a bug?"
+    a1: "Please send an email with detailed information about the issue, including your device model, OS version, and steps to reproduce the bug."
+    q2: "How do I request a new feature?"
+    a2: "We welcome feature requests! Send us an email describing the feature you'd like to see, and we'll consider it for future updates."
+    q3: "Is Lightning free to use?"
+    a3: "Yes! Lightning is completely free to use. However, you'll need your own proxy server configuration to connect."
+  feedback:
+    title: Send us a Message
+    intro: "Have questions, suggestions, or feedback? Fill out the form below or email us directly."
+    tip: "For the fastest response, please email us directly at"
+    send_email: Send Email
+    response_title: Response Time
+    response_text: "We typically respond to emails within 24-48 hours. Thank you for your patience!"
+
+# Footer
+footer:
+  links: Links
+  download: Download
+  copyright: "All rights reserved."

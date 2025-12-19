@@ -1,0 +1,152 @@
+---
+layout: default_i18n
+lang: zh
+nav_active: contact
+page_path: contact
+permalink: /zh/contact
+---
+{% assign t = site.data.i18n[page.lang] %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h1>{{ t.contact.title }} <small>{{ t.contact.subtitle }}</small></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="contact-info-section">
+        <h3><i class="fa fa-bolt text-warning"></i> {{ t.contact.team_name }}</h3>
+        <p class="lead">{{ t.contact.intro }}</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa fa-envelope fa-2x"></i>
+          </div>
+          <div class="contact-details">
+            <h5>{{ t.contact.email }}</h5>
+            <p><a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a></p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa fa-github fa-2x"></i>
+          </div>
+          <div class="contact-details">
+            <h5>{{ t.contact.github }}</h5>
+            <p><a href="https://github.com/nicejudy" target="_blank">github.com/nicejudy</a></p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa fa-globe fa-2x"></i>
+          </div>
+          <div class="contact-details">
+            <h5>{{ t.contact.website }}</h5>
+            <p><a href="https://martiny985.github.io" target="_blank">martiny985.github.io</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-section">
+        <h3><i class="fa fa-question-circle"></i> {{ t.contact.faq.title }}</h3>
+
+        <div class="panel-group" id="faq-accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq1">
+                  {{ t.contact.faq.q1 }}
+                </a>
+              </h4>
+            </div>
+            <div id="faq1" class="panel-collapse collapse in">
+              <div class="panel-body">
+                {{ t.contact.faq.a1 }}
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq2">
+                  {{ t.contact.faq.q2 }}
+                </a>
+              </h4>
+            </div>
+            <div id="faq2" class="panel-collapse collapse">
+              <div class="panel-body">
+                {{ t.contact.faq.a2 }}
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq3">
+                  {{ t.contact.faq.q3 }}
+                </a>
+              </h4>
+            </div>
+            <div id="faq3" class="panel-collapse collapse">
+              <div class="panel-body">
+                {{ t.contact.faq.a3 }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="feedback-section">
+        <h3><i class="fa fa-paper-plane"></i> {{ t.contact.feedback.title }}</h3>
+        <p>{{ t.contact.feedback.intro }}</p>
+
+        <div class="alert alert-info">
+          <i class="fa fa-info-circle"></i>
+          {{ t.contact.feedback.tip }} <strong>{{ site.company_email }}</strong>
+        </div>
+
+        <div class="email-button-section text-center">
+          <a href="mailto:{{ site.company_email }}?subject=Lightning%20Feedback" class="btn btn-primary btn-lg">
+            <i class="fa fa-envelope"></i> {{ t.contact.feedback.send_email }}
+          </a>
+        </div>
+
+        <hr>
+
+        <div class="support-hours">
+          <h4><i class="fa fa-clock-o"></i> {{ t.contact.feedback.response_title }}</h4>
+          <p>{{ t.contact.feedback.response_text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.contact-info-section { margin-bottom: 40px; }
+.contact-item { display: flex; align-items: flex-start; margin-bottom: 25px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+.contact-icon { color: #0f3460; margin-right: 20px; min-width: 40px; text-align: center; }
+.contact-details h5 { margin: 0 0 5px 0; font-weight: 600; color: #333; }
+.contact-details p { margin: 0; color: #666; }
+.contact-details a { color: #0f3460; text-decoration: none; }
+.contact-details a:hover { text-decoration: underline; }
+.faq-section { margin-top: 30px; }
+.faq-section h3 { margin-bottom: 20px; }
+.feedback-section { background: #f8f9fa; padding: 30px; border-radius: 10px; }
+.feedback-section h3 { margin-bottom: 15px; }
+.email-button-section { margin: 30px 0; }
+.support-hours { margin-top: 20px; }
+.support-hours h4 { margin-bottom: 10px; color: #333; }
+.panel-title a { display: block; padding: 10px 0; color: #333; text-decoration: none; }
+.panel-title a:hover { color: #0f3460; }
+</style>

@@ -1,0 +1,57 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% assign other_lang = 'zh' %}
+{% assign other_lang_name = '中文' %}
+{% if page.lang == 'zh' %}
+  {% assign other_lang = 'en' %}
+  {% assign other_lang_name = 'English' %}
+{% endif %}
+
+<!-- Header -->
+<nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
+  <div class="container">
+
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="{{ site.baseurl }}/{{ page.lang }}/">
+      <i class="fa fa-bolt" style="color: #FFD700;"></i> Lightning
+    </a>
+  </div>
+
+  <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav pull-right">
+      <li {% if page.nav_active == 'home' %}class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/{{ page.lang }}/">{{ t.nav.home }}</a>
+      </li>
+      <li {% if page.nav_active == 'contact' %}class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/{{ page.lang }}/contact">{{ t.nav.contact }}</a>
+      </li>
+      <li {% if page.nav_active == 'privacy' %}class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/{{ page.lang }}/privacy">{{ t.nav.privacy }}</a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-globe"></i> {{ t.lang_name }} <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/en/{{ page.page_path | default: '' }}">English</a></li>
+          <li><a href="{{ site.baseurl }}/zh/{{ page.page_path | default: '' }}">中文</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<style>
+.navbar-brand {
+  font-weight: 600;
+  font-size: 20px;
+}
+</style>
+
+<!-- End Header -->

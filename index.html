@@ -1,4 +1,32 @@
 ---
-layout: home_style
-nav_active: home
+layout: null
 ---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lightning - Redirecting...</title>
+  <script>
+    // 检测浏览器语言并重定向到对应语言版本
+    (function() {
+      var lang = navigator.language || navigator.userLanguage;
+      var targetPath = '/en/';
+
+      // 如果浏览器语言是中文，重定向到中文版
+      if (lang && (lang.toLowerCase().startsWith('zh'))) {
+        targetPath = '/zh/';
+      }
+
+      // 获取基础路径
+      var basePath = '{{ site.baseurl }}';
+      window.location.replace(basePath + targetPath);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/en/">
+  </noscript>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ site.baseurl }}/en/">Lightning</a>...</p>
+</body>
+</html>

@@ -1,0 +1,115 @@
+---
+layout: default_i18n
+lang: en
+nav_active: privacy
+page_path: privacy
+permalink: /en/privacy
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h1>Privacy Policy</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-muted">Last Updated: December 19, 2025</p>
+
+      <div class="alert alert-info">
+        <i class="fa fa-info-circle"></i>
+        This privacy policy applies to the <strong>Lightning</strong> application developed and operated by Lightning Team.
+      </div>
+
+      <h3>1. Introduction</h3>
+      <p>
+        We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our App.
+      </p>
+
+      <h3>2. Information We Collect</h3>
+      <p>Our App is designed with privacy in mind. We collect minimal information necessary for the App to function:</p>
+
+      <h4>2.1 Camera Access</h4>
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h4 class="panel-title"><i class="fa fa-camera"></i> Camera Permission</h4>
+        </div>
+        <div class="panel-body">
+          <p><strong>Purpose:</strong> The App requests camera access solely for the purpose of scanning QR codes to import proxy server configurations.</p>
+          <p><strong>Data Handling:</strong></p>
+          <ul>
+            <li>Camera data is processed locally on your device only</li>
+            <li>No images or video are stored, transmitted, or uploaded to any server</li>
+            <li>Camera access is only active when you explicitly use the QR code scanning feature</li>
+            <li>You can deny camera permission and manually enter configuration instead</li>
+          </ul>
+        </div>
+      </div>
+
+      <h4>2.2 Network Configuration Data</h4>
+      <p>
+        The App stores proxy server configurations that you import or manually enter. This data is stored locally on your device and is not transmitted to our servers.
+      </p>
+
+      <h4>2.3 No Personal Data Collection</h4>
+      <p>We do NOT collect:</p>
+      <ul>
+        <li>Personal identification information (name, email, phone number)</li>
+        <li>Location data</li>
+        <li>Device identifiers</li>
+        <li>Usage analytics or tracking data</li>
+        <li>Browsing history or network traffic content</li>
+      </ul>
+
+      <h3>3. How We Use Information</h3>
+      <p>Any information processed by the App is used solely for:</p>
+      <ul>
+        <li>Establishing VPN connections based on your configured proxy servers</li>
+        <li>Scanning QR codes to simplify configuration import</li>
+        <li>Storing your preferences locally on your device</li>
+      </ul>
+
+      <h3>4. Data Storage and Security</h3>
+      <p>
+        All configuration data is stored locally on your device. We implement appropriate security measures to protect your data, including:
+      </p>
+      <ul>
+        <li>Local-only storage (no cloud synchronization)</li>
+        <li>No transmission of personal data to external servers</li>
+        <li>Secure handling of proxy credentials</li>
+      </ul>
+
+      <h3>5. Third-Party Services</h3>
+      <p>
+        The App connects to proxy servers that you configure. We are not responsible for the privacy practices of these third-party proxy services. Please review their respective privacy policies.
+      </p>
+
+      <h3>6. Children's Privacy</h3>
+      <p>
+        Our App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.
+      </p>
+
+      <h3>7. Changes to This Policy</h3>
+      <p>
+        We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.
+      </p>
+
+      <h3>8. Contact Us</h3>
+      <p>If you have any questions about this privacy policy, please contact us at:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a></li>
+        <li><strong>Website:</strong> <a href="{{ site.url }}">{{ site.url }}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+h3 { margin-top: 25px; color: #333; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+h4 { margin-top: 20px; color: #555; }
+.panel-warning .panel-heading { background-color: #fcf8e3; border-color: #faebcc; }
+.panel-warning .panel-title { color: #8a6d3b; }
+</style>

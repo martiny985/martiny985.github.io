@@ -1,0 +1,86 @@
+# Chinese translations
+lang: zh
+lang_name: 中文
+
+# Navigation
+nav:
+  home: 首页
+  contact: 联系我们
+  privacy: 隐私政策
+  language: 语言
+
+# Hero Section
+hero:
+  slogan: "快如闪电，安全至上"
+  tagline: "基于 V2Ray 的智能代理工具"
+  learn_more: 了解更多
+  download: 立即下载
+
+# Features Section
+features:
+  title: 功能特性
+  subtitle: "为什么选择 Lightning？"
+  secure:
+    title: 安全可靠
+    desc: "基于 V2Ray 的加密代理连接，确保您的数据隐私安全。"
+  cross_platform:
+    title: 跨平台支持
+    desc: "支持 Windows、macOS、Linux 和 Android，一个应用满足所有设备。"
+  performance:
+    title: 高性能
+    desc: "使用 Rust 和 Tauri 构建，性能卓越，资源占用极低。"
+  modern_ui:
+    title: 现代界面
+    desc: "简洁直观的设计，支持多种主题，包括浅色、深色和跟随系统模式。"
+
+# Protocols Section
+protocols:
+  title: 支持的协议
+  subtitle: "兼容所有主流代理协议"
+  qr_import:
+    title: 二维码导入
+    desc: "扫描二维码快速导入配置"
+  url_import:
+    title: URL 导入
+    desc: "直接粘贴协议链接添加服务器"
+  full_config:
+    title: 完整配置
+    desc: "导入完整的 V2Ray JSON 配置文件"
+
+# Download Section
+download:
+  title: 下载
+  subtitle: "获取适合您平台的版本"
+  coming_soon: "即将上线"
+  download_btn: 下载
+
+# Contact Page
+contact:
+  title: 联系我们
+  subtitle: 保持联络
+  team_name: Lightning 团队
+  intro: "我们期待您的来信！"
+  email: 电子邮件
+  github: GitHub
+  website: 官方网站
+  faq:
+    title: 常见问题
+    q1: "如何报告 Bug？"
+    a1: "请发送邮件并附上问题的详细信息，包括您的设备型号、操作系统版本以及复现步骤。"
+    q2: "如何请求新功能？"
+    a2: "我们欢迎功能建议！请发送邮件描述您希望看到的功能，我们会在未来的更新中考虑。"
+    q3: "Lightning 是免费的吗？"
+    a3: "是的！Lightning 完全免费使用。但您需要自己的代理服务器配置才能连接。"
+  feedback:
+    title: 发送消息
+    intro: "有问题、建议或反馈？请填写下面的表单或直接给我们发邮件。"
+    tip: "如需最快回复，请直接发邮件至"
+    send_email: 发送邮件
+    response_title: 回复时间
+    response_text: "我们通常会在 24-48 小时内回复邮件。感谢您的耐心等待！"
+
+# Footer
+footer:
+  links: 链接
+  download: 下载
+  copyright: "版权所有"
