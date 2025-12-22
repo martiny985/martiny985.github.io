@@ -1,433 +1,438 @@
 <!doctype html>
 <html lang="en">
 
-  {% include head.html %}
-  {% include header.html %}
-  {% include script.html %}
+{% include head.html %}
+{% include header.html %}
+{% include script.html %}
 
-  <body>
-    <!-- Begin Hero Section -->
-    <section id="hero-section" class="hero-section">
-      <div class="hero-bg"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="hero-content wow animated fadeInDown">
-              <!-- Lightning Logo -->
-              <div class="hero-logo">
-                <img src="{{ site.baseurl }}/assets/img/lightning-logo.png" alt="Lightning Logo" width="120" height="120">
-              </div>
-              <h1 class="hero-title">Lightning</h1>
-              <p class="hero-slogan">Fast as Lightning, Secure Always</p>
-              <p class="hero-tagline">Smart Proxy Tool Powered by V2Ray</p>
-              <div class="hero-version">v1.0.0</div>
-              <div class="hero-buttons">
-                <a href="#features" class="btn btn-primary btn-lg">
-                  <i class="fa fa-star"></i> Learn More
-                </a>
-                <a href="#download" class="btn btn-success btn-lg">
-                  <i class="fa fa-download"></i> Download
-                </a>
-              </div>
+<body>
+  <!-- Begin Hero Section -->
+  <section id="hero-section" class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="hero-content wow animated fadeInDown">
+            <!-- Lightning Logo -->
+            <div class="hero-logo">
+              <img src="{{ site.baseurl }}/assets/img/lightning-logo-big.png" alt="Lightning Logo" width="120"
+                height="120">
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Hero Section -->
-
-    <!-- Begin Features Section -->
-    <section id="features" class="features-section section-global-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Features</h2>
-            <p class="section-subtitle">Why choose Lightning?</p>
-            <hr class="section-hr">
-          </div>
-        </div>
-
-        <div class="row features-row">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="feature-card wow animated fadeInUp" data-wow-delay="0.1s">
-              <div class="feature-icon">
-                <i class="fa fa-lock fa-3x"></i>
-              </div>
-              <h4 class="feature-title">Secure</h4>
-              <p class="feature-desc">V2Ray-based encrypted proxy connection ensures your data stays private and protected.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="feature-card wow animated fadeInUp" data-wow-delay="0.2s">
-              <div class="feature-icon">
-                <i class="fa fa-desktop fa-3x"></i>
-              </div>
-              <h4 class="feature-title">Cross-Platform</h4>
-              <p class="feature-desc">Available on Windows, macOS, Linux, and Android. One app for all your devices.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="feature-card wow animated fadeInUp" data-wow-delay="0.3s">
-              <div class="feature-icon">
-                <i class="fa fa-bolt fa-3x"></i>
-              </div>
-              <h4 class="feature-title">High Performance</h4>
-              <p class="feature-desc">Built with Rust and Tauri for blazing fast performance and minimal resource usage.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="feature-card wow animated fadeInUp" data-wow-delay="0.4s">
-              <div class="feature-icon">
-                <i class="fa fa-paint-brush fa-3x"></i>
-              </div>
-              <h4 class="feature-title">Modern UI</h4>
-              <p class="feature-desc">Clean, intuitive design with multiple themes. Light, dark, and system modes supported.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Features Section -->
-
-    <!-- Begin Protocols Section -->
-    <section id="protocols" class="protocols-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Supported Protocols</h2>
-            <p class="section-subtitle">Compatible with all major proxy protocols</p>
-            <hr class="section-hr">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="protocol-badges">
-              <span class="protocol-badge">VMess</span>
-              <span class="protocol-badge">VLESS</span>
-              <span class="protocol-badge">Trojan</span>
-              <span class="protocol-badge">Shadowsocks</span>
-              <span class="protocol-badge">ShadowsocksR</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row protocol-features">
-          <div class="col-md-4 col-sm-6">
-            <div class="protocol-feature">
-              <i class="fa fa-qrcode fa-2x"></i>
-              <h5>QR Code Import</h5>
-              <p>Scan QR codes to quickly import configurations</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="protocol-feature">
-              <i class="fa fa-clipboard fa-2x"></i>
-              <h5>URL Import</h5>
-              <p>Paste protocol URLs directly to add servers</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="protocol-feature">
-              <i class="fa fa-file-code-o fa-2x"></i>
-              <h5>Full Config</h5>
-              <p>Import complete V2Ray JSON configurations</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Protocols Section -->
-
-    <!-- Begin Download Section -->
-    <section id="download" class="download-section section-global-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Download</h2>
-            <p class="section-subtitle">Get Lightning for your platform</p>
-            <hr class="section-hr">
-          </div>
-        </div>
-
-        <div class="row download-row">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="download-card">
-              <i class="fa fa-android fa-4x"></i>
-              <h4>Android</h4>
-              <p>Android 7.0+</p>
-              <a href="#" class="btn btn-success btn-block disabled">
-                <i class="fa fa-google"></i> Google Play (Coming Soon)
+            <h1 class="hero-title">Lightning</h1>
+            <p class="hero-slogan">Fast as Lightning, Secure Always</p>
+            <p class="hero-tagline">Smart Proxy Tool Powered by V2Ray</p>
+            <div class="hero-version">v1.0.0</div>
+            <div class="hero-buttons">
+              <a href="#features" class="btn btn-primary btn-lg">
+                <i class="fa fa-star"></i> Learn More
               </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="download-card">
-              <i class="fa fa-apple fa-4x"></i>
-              <h4>macOS</h4>
-              <p>macOS 10.15+</p>
-              <a href="#" class="btn btn-default btn-block disabled">
-                <i class="fa fa-download"></i> Download
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="download-card">
-              <i class="fa fa-windows fa-4x"></i>
-              <h4>Windows</h4>
-              <p>Windows 10+</p>
-              <a href="#" class="btn btn-default btn-block disabled">
-                <i class="fa fa-download"></i> Download
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="download-card">
-              <i class="fa fa-linux fa-4x"></i>
-              <h4>Linux</h4>
-              <p>Ubuntu 20.04+</p>
-              <a href="#" class="btn btn-default btn-block disabled">
+              <a href="#download" class="btn btn-success btn-lg">
                 <i class="fa fa-download"></i> Download
               </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Download Section -->
+    </div>
+  </section>
+  <!-- End Hero Section -->
 
-  </body>
+  <!-- Begin Features Section -->
+  <section id="features" class="features-section section-global-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">Features</h2>
+          <p class="section-subtitle">Why choose Lightning?</p>
+          <hr class="section-hr">
+        </div>
+      </div>
 
-  {% include footer.html %}
+      <div class="row features-row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="feature-card wow animated fadeInUp" data-wow-delay="0.1s">
+            <div class="feature-icon">
+              <i class="fa fa-lock fa-3x"></i>
+            </div>
+            <h4 class="feature-title">Secure</h4>
+            <p class="feature-desc">V2Ray-based encrypted proxy connection ensures your data stays private and
+              protected.</p>
+          </div>
+        </div>
 
-  <style>
-    /* Hero Section */
-    .hero-section {
-      position: relative;
-      padding: 100px 0 80px;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-      color: white;
-      overflow: hidden;
-    }
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="feature-card wow animated fadeInUp" data-wow-delay="0.2s">
+            <div class="feature-icon">
+              <i class="fa fa-desktop fa-3x"></i>
+            </div>
+            <h4 class="feature-title">Cross-Platform</h4>
+            <p class="feature-desc">Available on Windows, macOS, Linux, and Android. One app for all your devices.</p>
+          </div>
+        </div>
 
-    .hero-bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,215,0,0.1)" stroke-width="0.5"/></svg>');
-      opacity: 0.3;
-    }
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="feature-card wow animated fadeInUp" data-wow-delay="0.3s">
+            <div class="feature-icon">
+              <i class="fa fa-bolt fa-3x"></i>
+            </div>
+            <h4 class="feature-title">High Performance</h4>
+            <p class="feature-desc">Built with Rust and Tauri for blazing fast performance and minimal resource usage.
+            </p>
+          </div>
+        </div>
 
-    .hero-content {
-      position: relative;
-      z-index: 1;
-    }
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="feature-card wow animated fadeInUp" data-wow-delay="0.4s">
+            <div class="feature-icon">
+              <i class="fa fa-paint-brush fa-3x"></i>
+            </div>
+            <h4 class="feature-title">Modern UI</h4>
+            <p class="feature-desc">Clean, intuitive design with multiple themes. Light, dark, and system modes
+              supported.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features Section -->
 
-    .hero-logo {
-      margin-bottom: 20px;
-    }
+  <!-- Begin Protocols Section -->
+  <section id="protocols" class="protocols-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">Supported Protocols</h2>
+          <p class="section-subtitle">Compatible with all major proxy protocols</p>
+          <hr class="section-hr">
+        </div>
+      </div>
 
-    .hero-logo img {
-      filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
-    }
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="protocol-badges">
+            <span class="protocol-badge">VMess</span>
+            <span class="protocol-badge">VLESS</span>
+            <span class="protocol-badge">Trojan</span>
+            <span class="protocol-badge">Shadowsocks</span>
+            <span class="protocol-badge">ShadowsocksR</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="row protocol-features">
+        <div class="col-md-4 col-sm-6">
+          <div class="protocol-feature">
+            <i class="fa fa-qrcode fa-2x"></i>
+            <h5>QR Code Import</h5>
+            <p>Scan QR codes to quickly import configurations</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="protocol-feature">
+            <i class="fa fa-clipboard fa-2x"></i>
+            <h5>URL Import</h5>
+            <p>Paste protocol URLs directly to add servers</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="protocol-feature">
+            <i class="fa fa-file-code-o fa-2x"></i>
+            <h5>Full Config</h5>
+            <p>Import complete V2Ray JSON configurations</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Protocols Section -->
+
+  <!-- Begin Download Section -->
+  <section id="download" class="download-section section-global-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">Download</h2>
+          <p class="section-subtitle">Get Lightning for your platform</p>
+          <hr class="section-hr">
+        </div>
+      </div>
+
+      <div class="row download-row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="download-card">
+            <i class="fa fa-android fa-4x"></i>
+            <h4>Android</h4>
+            <p>Android 7.0+</p>
+            <a href="#" class="btn btn-success btn-block disabled">
+              <i class="fa fa-google"></i> Google Play (Coming Soon)
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="download-card">
+            <i class="fa fa-apple fa-4x"></i>
+            <h4>macOS</h4>
+            <p>macOS 10.15+</p>
+            <a href="#" class="btn btn-default btn-block disabled">
+              <i class="fa fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="download-card">
+            <i class="fa fa-windows fa-4x"></i>
+            <h4>Windows</h4>
+            <p>Windows 10+</p>
+            <a href="#" class="btn btn-default btn-block disabled">
+              <i class="fa fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="download-card">
+            <i class="fa fa-linux fa-4x"></i>
+            <h4>Linux</h4>
+            <p>Ubuntu 20.04+</p>
+            <a href="#" class="btn btn-default btn-block disabled">
+              <i class="fa fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Download Section -->
+
+</body>
+
+{% include footer.html %}
+
+<style>
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    padding: 100px 0 80px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: white;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,215,0,0.1)" stroke-width="0.5"/></svg>');
+    opacity: 0.3;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-logo {
+    margin-bottom: 20px;
+  }
+
+  .hero-logo img {
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
+  }
+
+  .hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .hero-slogan {
+    font-size: 24px;
+    opacity: 0.9;
+    margin-bottom: 5px;
+  }
+
+  .hero-tagline {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+
+  .hero-version {
+    display: inline-block;
+    background: rgba(255, 215, 0, 0.2);
+    color: #FFD700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .hero-buttons .btn {
+    margin: 5px 10px;
+  }
+
+  /* Features Section */
+  .features-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+  }
+
+  .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .section-hr {
+    width: 60px;
+    border-top: 3px solid #FFD700;
+    margin: 20px auto 40px;
+  }
+
+  .feature-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  .feature-icon {
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .feature-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* Protocols Section */
+  .protocols-section {
+    padding: 80px 0;
+    background: white;
+  }
+
+  .protocol-badges {
+    margin-bottom: 40px;
+  }
+
+  .protocol-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #1a1a2e, #0f3460);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .protocol-features {
+    margin-top: 20px;
+  }
+
+  .protocol-feature {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .protocol-feature i {
+    color: #0f3460;
+    margin-bottom: 15px;
+  }
+
+  .protocol-feature h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .protocol-feature p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  /* Download Section */
+  .download-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+  }
+
+  .download-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .download-card i {
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .download-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .download-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .download-card .btn.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
     .hero-title {
-      font-size: 48px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      font-size: 36px;
     }
 
     .hero-slogan {
-      font-size: 24px;
-      opacity: 0.9;
-      margin-bottom: 5px;
-    }
-
-    .hero-tagline {
-      font-size: 16px;
-      opacity: 0.7;
-      margin-bottom: 20px;
-    }
-
-    .hero-version {
-      display: inline-block;
-      background: rgba(255, 215, 0, 0.2);
-      color: #FFD700;
-      padding: 5px 15px;
-      border-radius: 20px;
-      font-size: 14px;
-      margin-bottom: 30px;
+      font-size: 18px;
     }
 
     .hero-buttons .btn {
-      margin: 5px 10px;
+      display: block;
+      margin: 10px auto;
+      max-width: 200px;
     }
+  }
+</style>
 
-    /* Features Section */
-    .features-section {
-      padding: 80px 0;
-      background: #f8f9fa;
-    }
-
-    .section-title {
-      font-size: 36px;
-      font-weight: 600;
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    .section-subtitle {
-      font-size: 18px;
-      color: #666;
-      margin-bottom: 20px;
-    }
-
-    .section-hr {
-      width: 60px;
-      border-top: 3px solid #FFD700;
-      margin: 20px auto 40px;
-    }
-
-    .feature-card {
-      background: white;
-      border-radius: 10px;
-      padding: 30px 20px;
-      margin-bottom: 30px;
-      text-align: center;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-      transition: all 0.3s ease;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-    }
-
-    .feature-icon {
-      color: #FFD700;
-      margin-bottom: 20px;
-    }
-
-    .feature-title {
-      font-size: 20px;
-      font-weight: 600;
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    .feature-desc {
-      font-size: 14px;
-      color: #666;
-      line-height: 1.6;
-    }
-
-    /* Protocols Section */
-    .protocols-section {
-      padding: 80px 0;
-      background: white;
-    }
-
-    .protocol-badges {
-      margin-bottom: 40px;
-    }
-
-    .protocol-badge {
-      display: inline-block;
-      background: linear-gradient(135deg, #1a1a2e, #0f3460);
-      color: white;
-      padding: 10px 25px;
-      border-radius: 25px;
-      margin: 5px 10px;
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    .protocol-features {
-      margin-top: 20px;
-    }
-
-    .protocol-feature {
-      text-align: center;
-      padding: 20px;
-    }
-
-    .protocol-feature i {
-      color: #0f3460;
-      margin-bottom: 15px;
-    }
-
-    .protocol-feature h5 {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-
-    .protocol-feature p {
-      font-size: 14px;
-      color: #666;
-    }
-
-    /* Download Section */
-    .download-section {
-      padding: 80px 0;
-      background: #f8f9fa;
-    }
-
-    .download-card {
-      background: white;
-      border-radius: 10px;
-      padding: 30px 20px;
-      margin-bottom: 30px;
-      text-align: center;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    }
-
-    .download-card i {
-      color: #333;
-      margin-bottom: 15px;
-    }
-
-    .download-card h4 {
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 5px;
-    }
-
-    .download-card p {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 20px;
-    }
-
-    .download-card .btn.disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .hero-title {
-        font-size: 36px;
-      }
-
-      .hero-slogan {
-        font-size: 18px;
-      }
-
-      .hero-buttons .btn {
-        display: block;
-        margin: 10px auto;
-        max-width: 200px;
-      }
-    }
-  </style>
 </html>
