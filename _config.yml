@@ -16,7 +16,7 @@
 title: Lightning - Smart Proxy Tool
 email: martiny895z@gmail.com
 description: >-
-  Lightning is a fast, secure, cross-platform proxy client powered by V2Ray.
+  Lightning is a fast, secure, cross-platform proxy client powered by sing-box.
   Available on Windows, macOS, Linux, and Android.
 baseurl: "" # 空字符串表示根路径
 url: "https://martiny985.github.io" # GitHub Pages 域名
@@ -26,7 +26,7 @@ github_username: martiny
 app_name: Lightning
 app_version: "1.0.0"
 app_slogan: "Fast as Lightning, Secure Always"
-app_tagline: "Smart Proxy Tool Powered by V2Ray"
+app_tagline: "Smart Proxy Tool Powered by sing-box"
 
 # Contact Information
 company_name: Lightning Team

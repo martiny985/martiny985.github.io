@@ -13,7 +13,7 @@ nav:
 # Hero Section
 hero:
   slogan: "快如闪电，安全至上"
-  tagline: "基于 V2Ray 的智能代理工具"
+  tagline: "基于 sing-box 的智能代理工具"
   learn_more: 了解更多
   download: 立即下载
 
@@ -23,7 +23,7 @@ features:
   subtitle: "为什么选择 Lightning？"
   secure:
     title: 安全可靠
-    desc: "基于 V2Ray 的加密代理连接，确保您的数据隐私安全。"
+    desc: "基于 sing-box 的加密代理连接，确保您的数据隐私安全。"
   cross_platform:
     title: 跨平台支持
     desc: "支持 Windows、macOS、Linux 和 Android，一个应用满足所有设备。"
@@ -46,7 +46,7 @@ protocols:
     desc: "直接粘贴协议链接添加服务器"
   full_config:
     title: 完整配置
-    desc: "导入完整的 V2Ray JSON 配置文件"
+    desc: "导入完整的 sing-box JSON 配置文件"
 
 # Download Section
 download:

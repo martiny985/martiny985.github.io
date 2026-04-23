@@ -13,7 +13,7 @@ nav:
 # Hero Section
 hero:
   slogan: "Fast as Lightning, Secure Always"
-  tagline: "Smart Proxy Tool Powered by V2Ray"
+  tagline: "Smart Proxy Tool Powered by sing-box"
   learn_more: Learn More
   download: Download
 
@@ -23,7 +23,7 @@ features:
   subtitle: "Why choose Lightning?"
   secure:
     title: Secure
-    desc: "V2Ray-based encrypted proxy connection ensures your data stays private and protected."
+    desc: "Sing-box based encrypted proxy connection ensures your data stays private and protected."
   cross_platform:
     title: Cross-Platform
     desc: "Available on Windows, macOS, Linux, and Android. One app for all your devices."
@@ -46,7 +46,7 @@ protocols:
     desc: "Paste protocol URLs directly to add servers"
   full_config:
     title: Full Config
-    desc: "Import complete V2Ray JSON configurations"
+    desc: "Import complete sing-box JSON configurations"
 
 # Download Section
 download:
